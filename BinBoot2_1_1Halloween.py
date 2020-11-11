@@ -31,7 +31,7 @@ def keyEvent(e):
 	global running
 	if e.name == "q":
 		exitNice("", "")
-		print("Quitting")
+		print("Quitting!")
 running = True
 arr = []
 path = os.getcwd() + "/binbootMusic"
